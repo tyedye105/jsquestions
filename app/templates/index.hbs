@@ -1,1 +1,4 @@
-{{outlet}}
+{{#each model as |question|}}
+  {{question.content}}, {{question.author}}
+  <br>
+{{/each}}
