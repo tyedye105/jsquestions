@@ -3,6 +3,6 @@
   <h6>We might be slighly better than yahoo answers!</h6>
 </div>
 {{#each model as |question|}}
-  {{question.content}}, {{question.author}}
+  {{question-display question=question}}
   <br>
 {{/each}}
