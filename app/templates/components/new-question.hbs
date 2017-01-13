@@ -1,6 +1,6 @@
 {{#if addNewQuestion}}
   <h3>So you haz a question!</h3>
-    <form id="questionForm"> 
+    <form id="questionForm">
       <div class="form-group">
         <label for="content">What is it?</label>
         {{input value=content id="content"}}
@@ -13,7 +13,7 @@
         <label for="topic">What topic does this question pertain to?</label>
         {{input value=topic id="topic"}}
       </div>
-        <button {{action 'saveQuestion'}}>Submit Question!</button>
+        <button {{action 'saveQuestion'}}>Submit Question!</button>;
     </form>
   {{else}}
     <button {{action 'questionFormShow'}}> Haz question?</button>
