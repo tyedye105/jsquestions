@@ -1,1 +1,20 @@
-{{yield}}
+{{#if addNewQuestion}}
+  <h3>So you haz a question!</h3>
+    <form id="questionForm"> 
+      <div class="form-group">
+        <label for="content">What is it?</label>
+        {{input value=content id="content"}}
+      </div>
+      <div class="form-group">
+        <label for="author">Who are you?</label>
+        {{input value=author id="author"}}
+      </div>
+      <div class="form-group">
+        <label for="topic">What topic does this question pertain to?</label>
+        {{input value=topic id="topic"}}
+      </div>
+        <button {{action 'saveQuestion'}}>Submit Question!</button>
+    </form>
+  {{else}}
+    <button {{action 'questionFormShow'}}> Haz question?</button>
+  {{/if}}
