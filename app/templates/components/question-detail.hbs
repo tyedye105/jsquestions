@@ -4,3 +4,10 @@
   <h5>Submitted by: {{question.author}}</h5>
   <h6>Topic: {{question.topic}}</h6>
 </div>
+<br>
+<h3>Submitted Answers!</h3>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{display-answers answer=answer}}
+  {{/each}}
+</ul>
