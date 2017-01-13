@@ -1,18 +1,18 @@
 {{#if updateQuestionForm}}
 <form id="questionForm">
   <div class="form-group">
-    <label for="content">What is it?</label>
+    <label for="content">Re-word question?</label>
     {{input value=content id="content" placeholder=question.content}}
   </div>
   <div class="form-group">
-    <label for="author">Who are you?</label>
+    <label for="author">Mess up your name?</label>
     {{input value=author id="author" placeholder=question.author}}
   </div>
   <div class="form-group">
-    <label for="topic">What topic does this question pertain to?</label>
+    <label for="topic">Wrong topic?</label>
     {{input value=topic id="topic" placeholder=question.topic}}
 </div>
-    <button {{action 'updateQuestion' question}}>Submit Question!</button>;
+    <button {{action 'updateQuestion' question}}>Submit Question!</button>
   </form>
 {{else}}
 <button {{ action 'showUpdateQuestionForm'}}> Haz update to question?</button>

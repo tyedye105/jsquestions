@@ -1,3 +1,7 @@
 .jumbotron {
   text-align: center;
 }
+
+#navbarbuffer {
+      margin-top: 75px;
+}
