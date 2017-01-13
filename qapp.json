@@ -1,0 +1,25 @@
+{
+  "questions": [{
+    "author": "obseesed with fluffy things",
+    "content": "Which is fluffiest, the llama, or the alpaca?",
+    "topic":"animals"
+  }, {
+      "author": "addicted to memes",
+      "content": "Who was that man in trolololo?",
+      "topic":"memes"
+  }, {
+      "author": "riddle dude",
+      "content": "riddle impsum",
+      "topic":"riddles"
+  }],
+  "answers": [{
+    "author": "aplaca farmer",
+    "content": "The alpaca, with out a doubt"
+  }, {
+    "author": "Dank Meme-ologist",
+    "content": "His name was Eduard Khil"
+  }, {
+    "author": "Answer Man",
+    "content": "answer ipsum"
+  }]
+}
