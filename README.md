@@ -1,52 +1,30 @@
-# js-questions
+# _I Haz Question_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By _**Marty Kovach**, 01/13/2017_
 
-## Prerequisites
 
-You will need the following things properly installed on your computer.
+## Known issues
+Since there is no validation for the input fields, users can submit empty fields that result in intangible clutter that can be rendered on the app.  Only way to remove such things is purging the database of these entries
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Bower](https://bower.io/)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+## Description
 
-## Installation
+This web app utilizes Ember and its related technologies to create a simple message board where users can post questions, and answers.
 
-* `git clone <repository-url>` this repository
-* `cd js-questions`
-* `npm install`
-* `bower install`
 
-## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+## Setup/Installation Requirements
 
-### Code Generators
+* Clone this repo: https://github.com/tyedye105/jsquestions
+* In the terminal run $ npm install
+* In the terminal run $ bower install
+* In the terminal run $ ember s
 
-Make use of the many generators for code, try `ember help generate` for more details
+## Technologies Used
 
-### Running Tests
+_hmtl, css, JavaScript, bootstrap, jquery, node, bower, Ember
 
-* `ember test`
-* `ember test --server`
+### License
 
-### Building
+*MIT License*
 
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Copyright (c) 2017 **_Marty Kovach_**
