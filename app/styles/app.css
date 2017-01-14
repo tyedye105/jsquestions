@@ -1,7 +1,46 @@
 .jumbotron {
   text-align: center;
+  background-color: #661400;
+  color: #ED8112;
 }
 
 #navbarbuffer {
       margin-top: 75px;
+}
+
+.container {
+  font-family: 'Monda', sans-serif;
+}
+
+body {
+  background: url("/assets/images/background.jpg") fixed;
+}
+
+.well {
+  background-color: #370A00;
+  border-color: #6C3A1C;
+}
+
+.navbar {
+  background-color: #370A00;
+  border-color:#6C3A1C;
+  color: #D87611;
+}
+.navbar-default .navbar-brand {
+  color:#D87611;
+}
+a {
+  color:#ED8112;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#D87611
+}
+
+label {
+  color:#D87611;
+}
+
+li {
+  color:#D87611;
 }

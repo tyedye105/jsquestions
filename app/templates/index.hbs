@@ -2,9 +2,11 @@
   <h1>Welcome to "I Haz a Question?"</h1>
   <h6>We might be slighly better than yahoo answers!</h6>
 </div>
+<div class="well">
 {{#each model as |question|}}
   {{question-display question=question}}
   <br>
 {{/each}}
 
 {{new-question saveQuestion="saveQuestion"}}
+</div>
